@@ -19,7 +19,7 @@ body {
 
 .logo {
   flex: 20%;
-  text-align: center;
+  text-align: left;
   margin-left: 10%;
 }
 
@@ -56,6 +56,51 @@ body {
 }
 
 #botao:hover {
-    border: none;
-    background-color: #ff2978;
+  border: none;
+  background-color: #ff2978;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.headline h2 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #180f4a;
+  padding: 0;
+  margin: 0;
+}
+.headline p {
+  color: grey;
+  text-align: left;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #ff2978;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #180f4a;
+}
+
+.img-headline {
+  margin-right: 10%;
+  flex: 40%;
+  text-align: center;
 }
