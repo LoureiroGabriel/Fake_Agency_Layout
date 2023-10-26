@@ -15,6 +15,8 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -66,6 +68,7 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 .headline {
@@ -175,4 +178,11 @@ footer {
   font-family: "Lobster", sans-serif;
   color: white;
   font-size: 34px;
+}
+
+.contact-img{
+  height: 150px;
+  position: fixed;
+  bottom : 10px;
+  right: 10px;
 }
